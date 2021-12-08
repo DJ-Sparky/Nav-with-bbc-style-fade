@@ -8,6 +8,16 @@
 	background-size: 100%;
 	margin: 0;
 	padding: 0;
+	p {
+		position: absolute;
+		text-transform: capitalize;
+		font-size: 36px;
+		font-weight: 400;
+		align-items: flex-end;
+		left: 10px;
+		right: 10px;
+		z-index: 20;
+	}
 }
 
 .background {
@@ -27,18 +37,6 @@
 	left: 0;
 	z-index: 10;
 }
-
-.root p {
-	position: absolute;
-	text-transform: capitalize;
-	font-size: 36px;
-	font-weight: 400;
-	align-items: flex-end;
-	left: 10px;
-	right: 10px;
-	z-index: 20;
-}
-
 @media only screen and (min-width: 768px) {
 	.root {
 		color: white;
