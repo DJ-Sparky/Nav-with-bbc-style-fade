@@ -1,3 +1,5 @@
+@use './abstracts/colours.scss';
+
 .Container {
 	max-width: 1280px;
 	margin: 0 auto;
@@ -11,9 +13,9 @@
 	left: 0;
 	right: 0;
 	z-index: 99;
-	background-color: rgb(55, 204, 220);
+	background-color: colours.$freedomBlue;
 	padding: 16px 32px;
-	border-bottom: 3px solid #0a4f94;
+	border-bottom: 3px solid colours.$freedomDarkBlue;
 }
 .logo {
 	margin-right: auto;
@@ -111,7 +113,7 @@
 	:after {
 		content: '';
 		display: flex;
-		border-bottom: solid 2px #0a4f94;
+		border-bottom: solid 2px colours.$freedomDarkBlue;
 		transform: scaleX(0);
 		transition: transform 0.3s ease-in-out;
 	}
