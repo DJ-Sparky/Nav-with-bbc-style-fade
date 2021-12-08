@@ -9,7 +9,7 @@
 /coverage
 
 # next.js
-/.next/
+.next
 /out/
 
 # production
@@ -36,4 +36,5 @@ yarn-error.log*
 
 /public/robots.txt
 /public/my-sitemap.xmlnode_modules/
+node_modules/
 node_modules/
