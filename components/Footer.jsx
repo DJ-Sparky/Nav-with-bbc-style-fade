@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import navStyles from '../styles/Nav.module.css';
-import style from '../styles/Footer.module.css';
+import navStyles from '../styles/Nav.module.scss';
+import style from '../styles/Footer.module.scss';
 import Link from 'next/link';
 
 const Footer = () => {

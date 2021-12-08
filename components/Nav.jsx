@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import navStyles from '../styles/Nav.module.css';
+import navStyles from '../styles/Nav.module.scss';
 import Image from 'next/image';
 import logo from '../images/logo.png';
 import Link from 'next/link';

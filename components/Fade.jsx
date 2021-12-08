@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import styles from '../styles/Fade.module.css';
+import styles from '../styles/Fade.module.scss';
 import hero from '../images/hero.jpg';
 
 function fadeCard() {
