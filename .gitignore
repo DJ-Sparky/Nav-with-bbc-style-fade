@@ -36,3 +36,4 @@ yarn-error.log*
 
 /public/robots.txt
 /public/my-sitemap.xmlnode_modules/
+node_modules/
