@@ -22,7 +22,7 @@ const Nav = () => {
 					<Link href='contact-mitegra'>
 						<a>Contact</a>
 					</Link>
-					<a href='tel:07503-885730'>07503 885730</a>
+					{/* <a href='tel:07503-885730'>07503 885730</a> */}
 				</div>
 				<button
 					onClick={() => setHamburger(!hamburger)}
