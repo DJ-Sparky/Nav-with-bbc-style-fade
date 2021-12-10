@@ -3,13 +3,10 @@ import Image from 'next/image';
 import styles from '../styles/Fade.module.scss';
 import Link from 'next/link';
 
-function About() {
+const OvenCleaning = () => {
 	return (
 		<div>
-			<h1>About us.</h1>
-			<br />
-			<h2>We are what we do.</h2>
-			<br />
+			Oven Cleaning
 			<Link href='/'>
 				<a>
 					<button className={styles.button}>Homepage</button>
@@ -17,6 +14,6 @@ function About() {
 			</Link>
 		</div>
 	);
-}
+};
 
-export default About;
+export default OvenCleaning;

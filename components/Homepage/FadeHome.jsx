@@ -1,16 +1,16 @@
 import React from 'react';
 import Image from 'next/image';
-import styles from '../../styles/FadeReverse.module.scss';
-import hero from '../../images/oven.jpg';
+import styles from '../../styles/Fade.module.scss';
+import hero from '../../images/hero.jpg';
 import Link from 'next/link';
 
-function FadeReverse() {
+function FadeHome() {
 	return (
 		<div className={styles.root}>
 			<div className={styles.background} />
 			<Image
 				src={hero}
-				alt={'hero image'}
+				alt='Full House Cleaning Services'
 				objectFit='cover'
 				objectPosition='center'
 				layout='fill'
@@ -19,14 +19,11 @@ function FadeReverse() {
 				priority
 			/>
 			<div className={styles.wrapper}>
-				<h1>A Sparkling Oven</h1>
+				<h1>A brighter home.</h1>
 				<br />
-				<h2>
-					Central to your kitchen and heart of the home. Discover our all in one
-					oven cleaning service.
-				</h2>
+				<h2>Full house cleaning packages in your area.</h2>
 				<br />
-				<Link href='/'>
+				<Link href='/house-cleaning'>
 					<a>
 						<button className={styles.button}>Learn More</button>
 					</a>
@@ -36,4 +33,4 @@ function FadeReverse() {
 	);
 }
 
-export default FadeReverse;
+export default FadeHome;

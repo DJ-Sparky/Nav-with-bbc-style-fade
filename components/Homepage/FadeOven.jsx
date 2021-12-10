@@ -1,16 +1,16 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from '../../styles/Fade.module.scss';
-import hero from '../../images/hero.jpg';
+import hero from '../../images/oven.jpg';
 import Link from 'next/link';
 
-function fadeCard() {
+function FadeOven() {
 	return (
 		<div className={styles.root}>
 			<div className={styles.background} />
 			<Image
 				src={hero}
-				alt={'hero image'}
+				alt='Oven Cleaning'
 				objectFit='cover'
 				objectPosition='center'
 				layout='fill'
@@ -19,14 +19,11 @@ function fadeCard() {
 				priority
 			/>
 			<div className={styles.wrapper}>
-				<h1>A brighter home.</h1>
+				<h1>A Sparkling Oven</h1>
 				<br />
-				<h2>
-					Find out more about our amazing full house cleaning packages available
-					in your area.
-				</h2>
+				<h2>Complete oven cleaning services available.</h2>
 				<br />
-				<Link href='/'>
+				<Link href='/oven-cleaning'>
 					<a>
 						<button className={styles.button}>Learn More</button>
 					</a>
@@ -36,4 +33,4 @@ function fadeCard() {
 	);
 }
 
-export default fadeCard;
+export default FadeOven;

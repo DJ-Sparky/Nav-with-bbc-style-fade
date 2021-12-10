@@ -10,13 +10,18 @@ const Nav = () => {
 		<nav className={navStyles.nav}>
 			<div className='Container'>
 				<div className={navStyles.logo}>
-					<Image src={logo} height={37} width={37} />
+					<Image
+						src={logo}
+						height={37}
+						width={37}
+						alt='Freedom Cleaning Logo'
+					/>
 				</div>
 				<div className={navStyles.menu}>
 					<Link href='/'>
 						<a>Home</a>
 					</Link>
-					<Link href='about-mitegra'>
+					<Link href='/about'>
 						<a>About</a>
 					</Link>
 					<Link href='contact-mitegra'>

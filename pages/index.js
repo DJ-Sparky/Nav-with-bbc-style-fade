@@ -2,19 +2,27 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.scss';
 import Link from 'next/link';
 import Welcome from '../components/Homepage/Welcome';
-import Fadecard from '../components/Homepage/Fade';
-import FadeReverse from '../components/Homepage/FadeReverse';
+import FadeHome from '../components/Homepage/FadeHome';
+import FadeOven from '../components/Homepage/FadeOven';
+import { ScrollToTop } from '../components/scroll';
+
 function HomePage() {
 	return (
-		<div>
+		<>
 			<div>
-				<Fadecard />
+				<Head>
+					<title>Freedom Cleaning Services Homepage</title>
+				</Head>
+				<div>
+					<FadeHome />
+				</div>
+				<div>
+					<FadeOven />
+				</div>
+				<div>© Sparky {new Date().getFullYear()}</div>
 			</div>
-			<div>
-				<FadeReverse />
-			</div>
-			<div>© Sparky {new Date().getFullYear()}</div>
-		</div>
+			<ScrollToTop />
+		</>
 	);
 }
 
