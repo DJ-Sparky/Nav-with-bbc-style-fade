@@ -1,7 +1,6 @@
 import App from 'next/app';
 import Head from 'next/head';
 import Layout from '../components/Layout/Layout';
-import '../styles/global.css';
 import '../styles/globals.scss';
 
 class MyApp extends App {

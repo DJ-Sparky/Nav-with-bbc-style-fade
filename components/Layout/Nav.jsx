@@ -10,12 +10,16 @@ const Nav = () => {
 		<nav className={navStyles.nav}>
 			<div className='Container'>
 				<div className={navStyles.logo}>
-					<Image
-						src={logo}
-						height={37}
-						width={37}
-						alt='Freedom Cleaning Logo'
-					/>
+					<Link href='/'>
+						<a aria-label='visit our home page'>
+							<Image
+								src={logo}
+								height={37}
+								width={37}
+								alt='Freedom Cleaning Logo'
+							/>
+						</a>
+					</Link>
 				</div>
 				<div className={navStyles.menu}>
 					<Link href='/'>
