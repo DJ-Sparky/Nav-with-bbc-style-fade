@@ -21,9 +21,7 @@ function FadeOven() {
 			/>
 			<div className={styles.wrapper}>
 				<h1>A Sparkling Oven</h1>
-				<br />
 				<h2>Complete oven cleaning services available.</h2>
-				<br />
 				<Link href='/oven-cleaning'>
 					<a aria-label='visit our oven cleaning page'>
 						<button className={styles.button} aria-label='Learn More'>

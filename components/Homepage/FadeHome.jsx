@@ -21,9 +21,7 @@ function FadeHome() {
 			/>
 			<div className={styles.wrapper}>
 				<h1>A brighter home.</h1>
-				<br />
 				<h2>Full house cleaning packages in your area.</h2>
-				<br />
 				<Link href='/house-cleaning'>
 					<a aria-label='visit our house cleaning page'>
 						<button className={styles.button} aria-label='Learn More'>
