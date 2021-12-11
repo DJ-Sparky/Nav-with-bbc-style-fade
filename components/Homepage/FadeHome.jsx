@@ -17,6 +17,7 @@ function FadeHome() {
 				blurDataURL='data:...'
 				placeholder='blur'
 				priority
+				quality='50'
 			/>
 			<div className={styles.wrapper}>
 				<h1>A brighter home.</h1>
@@ -24,8 +25,10 @@ function FadeHome() {
 				<h2>Full house cleaning packages in your area.</h2>
 				<br />
 				<Link href='/house-cleaning'>
-					<a>
-						<button className={styles.button}>Learn More</button>
+					<a aria-label='visit our house cleaning page'>
+						<button className={styles.button} aria-label='Learn More'>
+							House Cleaning
+						</button>
 					</a>
 				</Link>
 			</div>

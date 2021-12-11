@@ -17,6 +17,7 @@ function FadeOven() {
 				blurDataURL='data:...'
 				placeholder='blur'
 				priority
+				quality='50'
 			/>
 			<div className={styles.wrapper}>
 				<h1>A Sparkling Oven</h1>
@@ -24,8 +25,10 @@ function FadeOven() {
 				<h2>Complete oven cleaning services available.</h2>
 				<br />
 				<Link href='/oven-cleaning'>
-					<a>
-						<button className={styles.button}>Learn More</button>
+					<a aria-label='visit our oven cleaning page'>
+						<button className={styles.button} aria-label='Learn More'>
+							Oven Cleaning
+						</button>
 					</a>
 				</Link>
 			</div>

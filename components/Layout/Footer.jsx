@@ -160,7 +160,7 @@ const Footer = () => {
           <Link href="/best-air-condition-north-macedonia-debar">
             <h2>Bathrooms</h2>
           </Link>
-          <Link href="/contact-mitegra">
+          <Link href="//">
             <h2>Contact</h2>
           </Link>
         </div>

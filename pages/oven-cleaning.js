@@ -7,9 +7,11 @@ const OvenCleaning = () => {
 	return (
 		<div>
 			Oven Cleaning
-			<Link href='/'>
+			<Link href='/' aria-label='visit our home page'>
 				<a>
-					<button className={styles.button}>Homepage</button>
+					<button className={styles.button} aria-label='Home Page'>
+						Homepage
+					</button>
 				</a>
 			</Link>
 		</div>

@@ -19,13 +19,13 @@ const Nav = () => {
 				</div>
 				<div className={navStyles.menu}>
 					<Link href='/'>
-						<a>Home</a>
+						<a aria-label='visit our home page'>Home</a>
 					</Link>
 					<Link href='/about'>
-						<a>About</a>
+						<a aria-label='visit our about page'>About</a>
 					</Link>
-					<Link href='contact-mitegra'>
-						<a>Contact</a>
+					<Link href='/'>
+						<a aria-label='visit our contact page'>Contact</a>
 					</Link>
 					{/* <a href='tel:07503-885730'>07503 885730</a> */}
 				</div>
@@ -34,6 +34,7 @@ const Nav = () => {
 					className={`${navStyles.hamburger} ${
 						hamburger ? navStyles.isActive : ''
 					}`}
+					aria-label='Menu Button'
 				>
 					<span></span>
 					<span></span>
@@ -46,13 +47,13 @@ const Nav = () => {
 					}`}
 				>
 					<Link href='/'>
-						<a>Home</a>
+						<a aria-label='visit our home page'>Home</a>
 					</Link>
-					<Link href='about-mitegra'>
-						<a>About</a>
+					<Link href='/about'>
+						<a aria-label='visit our about page'>About</a>
 					</Link>
-					<Link href='contact-mitegra'>
-						<a>Contact</a>
+					<Link href='/'>
+						<a aria-label='visit our contact page'>Contact</a>
 					</Link>
 				</div>
 			</div>

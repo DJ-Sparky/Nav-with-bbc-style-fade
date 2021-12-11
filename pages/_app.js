@@ -1,7 +1,6 @@
 import App from 'next/app';
 import Head from 'next/head';
 import Layout from '../components/Layout/Layout';
-import indec from '../pages/index';
 import '../styles/global.css';
 import '../styles/globals.scss';
 
