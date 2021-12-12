@@ -11,7 +11,10 @@ class MyDocument extends Document {
 			<Html lang='en'>
 				<Head>
 					<meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
-					<meta name='description' content='A cleaning company website' />
+					<meta
+						name='description'
+						content='Domestic Cleaning services for Bradford and Leeds'
+					/>
 					<link
 						href='https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap'
 						rel='stylesheet'

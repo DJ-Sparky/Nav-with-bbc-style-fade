@@ -14,7 +14,6 @@ function FadeOven() {
 				objectFit='cover'
 				objectPosition='center'
 				layout='fill'
-				blurDataURL='data:...'
 				placeholder='blur'
 				priority
 				quality='50'
