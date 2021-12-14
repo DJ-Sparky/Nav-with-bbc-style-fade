@@ -12,8 +12,8 @@
 		"postbuild": "next-sitemap"
 	},
 	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"author": "Freedom Cleaning",
+	"license": "UNLICENSED",
 	"dependencies": {
 		"next": "^12.0.5",
 		"next-strict-csp": "^1.0.1",
