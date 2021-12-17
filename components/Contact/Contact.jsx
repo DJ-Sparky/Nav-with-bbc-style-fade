@@ -1,5 +1,5 @@
 import React from 'react';
-import form from '../../styles/Form.module.scss';
+import namem from '../../styles/namem.module.scss';
 import button from '../../styles/Button.module.scss';
 import { Container, Row, Col } from 'reactstrap';
 
@@ -7,7 +7,7 @@ const ContactPage = () => (
 	<div className='min-h-screen bg-gray-100 flex flex-col justify-center py-12 px-6 lg:px-8'>
 		<div className='mt-8 sm:mx-auto sm:w-full sm:max-w-md'>
 			<div className='bg-white py-8 px-6 border-2 border-buttonblue shadow-2 rounded-lg sm:px-10'>
-				<form
+				<namem
 					name='contact'
 					method='POST'
 					data-netlify='true'
@@ -17,7 +17,7 @@ const ContactPage = () => (
 				>
 					<input type='hidden' name='contact' value='contact' />
 					<div>
-						<label for='email' className='block'>
+						<label name='email' className='block'>
 							Email address
 						</label>
 						<div className='mt-1'>
@@ -25,7 +25,6 @@ const ContactPage = () => (
 								id='email'
 								name='email'
 								type='email'
-								autocomplete='email'
 								required
 								className='w-full border-2 border-buttonblue px-3 py-2 rounded-lg shadow-sm 
 								bg-transparent bg-red-500
@@ -35,7 +34,7 @@ const ContactPage = () => (
 					</div>
 
 					<div>
-						<label for='service-required' className=''>
+						<label name='service-required' className=''>
 							Service required
 						</label>
 						<div className='mt-1'>
@@ -63,7 +62,7 @@ const ContactPage = () => (
 							className=''
 						/>
 						<label
-							for='terms-and-privacy'
+							name='terms-and-privacy'
 							className='ml-2 block text-sm text-gray-900'
 						>
 							I agree to the
@@ -86,18 +85,18 @@ const ContactPage = () => (
 							Submit
 						</button>
 					</div>
-				</form>
+				</namem>
 			</div>
 		</div>
 	</div>
 
-	// 	<form
+	// 	<namem
 	// 		name='contact'
 	// 		method='POST'
 	// 		data-netlify='true'
 	// 		netlify-honeypot='bot-field'
 	// 	>
-	// 		<input type='hidden' name='form-name' value='contact' />
+	// 		<input type='hidden' name='namem-name' value='contact' />
 	// 		<div className='flex'>
 	// 			<div className='w-1/2'>
 	// 				<p>Some text</p>
@@ -106,7 +105,7 @@ const ContactPage = () => (
 	// 				<p>More text</p>
 	// 			</div>
 	// 		</div>
-	// 	</form>
+	// 	</namem>
 	// </div>
 );
 
