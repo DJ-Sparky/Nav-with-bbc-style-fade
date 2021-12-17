@@ -1,5 +1,5 @@
 import React from 'react';
-import namem from '../../styles/namem.module.scss';
+
 import button from '../../styles/Button.module.scss';
 import { Container, Row, Col } from 'reactstrap';
 
