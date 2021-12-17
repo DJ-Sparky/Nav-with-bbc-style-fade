@@ -1,6 +1,7 @@
 import App from 'next/app';
 import Head from 'next/head';
 import Layout from '../components/Layout/Layout';
+import '../styles/globals.css';
 import '../styles/globals.scss';
 
 class MyApp extends App {
@@ -13,6 +14,7 @@ class MyApp extends App {
 						name='viewport'
 						content='width=device-width,initial-scale=1.0'
 					/>
+					<link href='/dist/output.css' rel='stylesheet'></link>
 				</Head>
 				<Layout>
 					<Component {...pageProps} />
