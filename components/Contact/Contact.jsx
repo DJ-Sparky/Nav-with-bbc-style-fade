@@ -7,7 +7,7 @@ const ContactPage = () => (
 	<div className='min-h-screen bg-gray-100 flex flex-col justify-center py-12 px-6 lg:px-8'>
 		<div className='mt-8 sm:mx-auto sm:w-full sm:max-w-md'>
 			<div className='bg-white py-8 px-6 border-2 border-buttonblue shadow-2 rounded-lg sm:px-10'>
-				<namem
+				<form
 					name='contact'
 					method='POST'
 					data-netlify='true'
@@ -45,7 +45,9 @@ const ContactPage = () => (
 								bg-transparent
 								focus:outline-none focus:border-buttondark focus:ring focus:ring-buttonblue bg-inputbackground'
 							>
-								<option value=''>Please select</option>
+								<option value='' hidden='hidden'>
+									Please select
+								</option>
 								<option value='Full House Cleaning'>Full House Clean</option>
 								<option value='Oven Clean'>Oven Clean</option>
 								<option value='Carpet Clean'>Carpet Cleaning</option>
@@ -85,7 +87,7 @@ const ContactPage = () => (
 							Submit
 						</button>
 					</div>
-				</namem>
+				</form>
 			</div>
 		</div>
 	</div>
