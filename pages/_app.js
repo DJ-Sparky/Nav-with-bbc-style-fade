@@ -19,7 +19,7 @@ class MyApp extends App {
 						name='viewport'
 						content='width=device-width,initial-scale=1.0'
 					/>
-					<link href='/dist/output.css' rel='stylesheet'></link>
+					{/* <link href='/dist/output.css' rel='stylesheet'></link> */}
 				</Head>
 				<Layout>
 					<Component {...pageProps} />
