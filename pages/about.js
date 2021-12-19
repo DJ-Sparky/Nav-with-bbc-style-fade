@@ -4,7 +4,7 @@ import Image from 'next/image';
 import styles from '../styles/Fade.module.scss';
 import Link from 'next/link';
 
-function About() {
+const About = () => {
 	return (
 		<div>
 			<Head>
@@ -23,6 +23,6 @@ function About() {
 			</Link>
 		</div>
 	);
-}
+};
 
 export default About;
