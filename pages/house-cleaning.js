@@ -11,7 +11,7 @@ const HouseCleaning = () => {
 				<title>House Cleaning</title>
 			</Head>
 			House Cleaning
-			<Link href='/' aria-label='visit our home page'>
+			<Link href='/' aria-label='Home page'>
 				<a>
 					<button className={styles.button} aria-label='Home Page'>
 						Homepage

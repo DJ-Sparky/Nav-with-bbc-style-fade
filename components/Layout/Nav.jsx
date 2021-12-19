@@ -11,25 +11,26 @@ const Nav = () => {
 			<div className='Container'>
 				<div className={navStyles.logo}>
 					<Link href='/'>
-						<a aria-label='visit our home page'>
+						<a aria-label='Home page'>
 							<Image
 								src={logo}
 								height={37}
 								width={37}
 								alt='Freedom Cleaning Logo'
+								aria-label='logo'
 							/>
 						</a>
 					</Link>
 				</div>
 				<div className={navStyles.menu}>
 					<Link href='/'>
-						<a aria-label='visit our home page'>Home</a>
+						<a aria-label='Home page'>Home</a>
 					</Link>
 					<Link href='/about'>
-						<a aria-label='visit our about page'>About</a>
+						<a aria-label='About page'>About</a>
 					</Link>
 					<Link href='/'>
-						<a aria-label='visit our contact page'>Contact</a>
+						<a aria-label='Contact page'>Contact</a>
 					</Link>
 					{/* <a href='tel:07503-885730'>07503 885730</a> */}
 				</div>
@@ -51,13 +52,13 @@ const Nav = () => {
 					}`}
 				>
 					<Link href='/'>
-						<a aria-label='visit our home page'>Home</a>
+						<a aria-label='Home page'>Home</a>
 					</Link>
 					<Link href='/about'>
-						<a aria-label='visit our about page'>About</a>
+						<a aria-label='About page'>About</a>
 					</Link>
 					<Link href='/'>
-						<a aria-label='visit our contact page'>Contact</a>
+						<a aria-label='Contact page'>Contact</a>
 					</Link>
 				</div>
 			</div>
