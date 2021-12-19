@@ -14,6 +14,7 @@ const ContactPage = () => (
 					netlify-honeypot='bot-field'
 					className='mb-0 space-y-6'
 					action='#'
+					aria-label='Contact Form'
 				>
 					<input type='hidden' name='contact' value='contact' />
 					<div>
@@ -29,6 +30,7 @@ const ContactPage = () => (
 								className='w-full border-2 border-buttonblue px-3 py-2 rounded-lg shadow-sm 
 								bg-transparent bg-red-500
 								focus:outline-none focus:border-buttondark focus:ring focus:ring-buttonblue bg-inputbackground'
+								aria-label='Input your email'
 							/>
 						</div>
 					</div>
@@ -44,14 +46,26 @@ const ContactPage = () => (
 								className='appearance-none w-full border-2 border-buttonblue px-3 py-2 rounded-lg shadow-sm
 								bg-transparent
 								focus:outline-none focus:border-buttondark focus:ring focus:ring-buttonblue bg-inputbackground'
+								aria-label='Required Services'
 							>
-								<option value='' hidden='hidden'>
+								<option value='' hidden='hidden' aria-label='Please Select'>
 									Please select
 								</option>
-								<option value='Full House Cleaning'>Full House Clean</option>
-								<option value='Oven Clean'>Oven Clean</option>
-								<option value='Carpet Clean'>Carpet Cleaning</option>
-								<option value='Something else'>Something Else</option>
+								<option
+									value='Full House Cleaning'
+									aria-label='Full House Cleaning'
+								>
+									Full House Clean
+								</option>
+								<option value='Oven Clean' aria-label='Oven Cleaning'>
+									Oven Clean
+								</option>
+								<option value='Carpet Clean' aria-label='Carpet Cleaning'>
+									Carpet Cleaning
+								</option>
+								<option value='Something else' aria-label='Something Else'>
+									Something Else
+								</option>
 							</select>
 						</div>
 					</div>
@@ -61,6 +75,7 @@ const ContactPage = () => (
 							id='terms-and-privacy'
 							name='terms-and-privacy'
 							type='checkbox'
+							aria-label='terms and privacy'
 							className=''
 						/>
 						<label
@@ -83,6 +98,7 @@ const ContactPage = () => (
 						<button
 							type='submit'
 							className='w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-md font-medium text-white bg-buttonblue hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+							aria-label='Submit Button'
 						>
 							Submit
 						</button>
